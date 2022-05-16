@@ -1,0 +1,358 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=System"/>
+    <title>Экспортированная база данных: База данных</title>
+    <style type="text/css">
+        table
+        {
+            border-style: solid;
+            border-width: 1px;
+            border-color: black;
+            border-collapse: collapse;
+        }
+        
+        table tr
+        {
+            background-color: white;
+        }
+        
+        table tr.header
+        {
+            background-color: #DDDDDD;
+        }
+        
+        table tr.title
+        {
+            background-color: #EEEEEE;
+        }
+        
+        table tr td
+        {
+            padding: 0px 3px 0px 3px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #666666;
+        }
+        
+        table tr td.null
+        {
+            color: #999999;
+            text-align: center;
+            padding: 0px 3px 0px 3px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #666666;
+        }
+        
+        table tr td.separator
+        {
+            padding: 0px 3px 0px 3px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #666666;
+            background-color: #DDDDDD;
+        }
+        
+        table tr td.rownum
+        {
+            padding: 0px 3px 0px 3px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #666666;
+            background-color: #DDDDDD;
+            text-align: right;
+        }
+        
+    </style>
+    <body>
+        <table>
+            <tr class="title">
+                <td colspan="2" align="center">Таблица: coach</td>
+            </tr>
+            <tr class="header">
+                <td align="right">
+                    <b><i>#</i></b>
+                </td>
+                <td>
+                    <b>coach_name</b><br/>STRING
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>1</i>
+                </td>
+                <td align="left">
+                    P.T. Midgley
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>2</i>
+                </td>
+                <td align="left">
+                    T.P. Tate
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>3</i>
+                </td>
+                <td align="left">
+                    N. Tinkler
+                </td>
+            </tr>
+        </table>
+        <br/><br/>
+        <table>
+            <tr class="title">
+                <td colspan="5" align="center">Таблица: Competition</td>
+            </tr>
+            <tr class="header">
+                <td align="right">
+                    <b><i>#</i></b>
+                </td>
+                <td>
+                    <b>date</b><br/>DATE
+                </td>
+                <td>
+                    <b>distance</b><br/>STRING
+                </td>
+                <td>
+                    <b>view</b><br/>STRING
+                </td>
+                <td>
+                    <b>competition_name</b><br/>STRING
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>1</i>
+                </td>
+                <td align="left">
+                    15.05.22
+                </td>
+                <td align="left">
+                    2 miles
+                </td>
+                <td align="left">
+                    hurdles
+                </td>
+                <td align="left">
+                    Ripon
+                </td>
+            </tr>
+        </table>
+        <br/><br/>
+        <table>
+            <tr class="title">
+                <td colspan="7" align="center">Таблица: Horse</td>
+            </tr>
+            <tr class="header">
+                <td align="right">
+                    <b><i>#</i></b>
+                </td>
+                <td>
+                    <b>horse_name</b><br/>STRING
+                </td>
+                <td>
+                    <b>age</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>country</b><br/>STRING
+                </td>
+                <td>
+                    <b>victory_number</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>j_name</b><br/>STRING
+                </td>
+                <td>
+                    <b>coach_name</b><br/>STRING
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>1</i>
+                </td>
+                <td align="left">
+                    Birkenhead
+                </td>
+                <td align="right">
+                    5
+                </td>
+                <td align="left">
+                    UK
+                </td>
+                <td align="right">
+                    60
+                </td>
+                <td align="left">
+                    Ryan Sexton
+                </td>
+                <td align="left">
+                    P.T. Midgley
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>2</i>
+                </td>
+                <td align="left">
+                    Young Tiger
+                </td>
+                <td align="right">
+                    9
+                </td>
+                <td align="left">
+                    UK
+                </td>
+                <td align="right">
+                    56
+                </td>
+                <td align="left">
+                    Billy Garritty
+                </td>
+                <td align="left">
+                    T.P. Tate
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>3</i>
+                </td>
+                <td align="left">
+                    High Security
+                </td>
+                <td align="right">
+                    4
+                </td>
+                <td align="left">
+                    UK
+                </td>
+                <td align="right">
+                    63
+                </td>
+                <td align="left">
+                    Alex Jary
+                </td>
+                <td align="left">
+                    N. Tinkler
+                </td>
+            </tr>
+        </table>
+        <br/><br/>
+        <table>
+            <tr class="title">
+                <td colspan="2" align="center">Таблица: jockey</td>
+            </tr>
+            <tr class="header">
+                <td align="right">
+                    <b><i>#</i></b>
+                </td>
+                <td>
+                    <b>j_name</b><br/>STRING
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>1</i>
+                </td>
+                <td align="left">
+                    Ryan Sexton
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>2</i>
+                </td>
+                <td align="left">
+                    Billy Garritty
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>3</i>
+                </td>
+                <td align="left">
+                    Alex Jary
+                </td>
+            </tr>
+        </table>
+        <br/><br/>
+        <table>
+            <tr class="title">
+                <td colspan="5" align="center">Таблица: Result</td>
+            </tr>
+            <tr class="header">
+                <td align="right">
+                    <b><i>#</i></b>
+                </td>
+                <td>
+                    <b>time</b><br/>TIME
+                </td>
+                <td>
+                    <b>position</b><br/>INTEGER
+                </td>
+                <td>
+                    <b>horse_name</b><br/>STRING
+                </td>
+                <td>
+                    <b>date</b><br/>DATE
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>1</i>
+                </td>
+                <td align="left">
+                    unknown
+                </td>
+                <td align="right">
+                    2
+                </td>
+                <td align="left">
+                    Birkenhead
+                </td>
+                <td align="left">
+                    15.05.22
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>2</i>
+                </td>
+                <td align="left">
+                    unknown
+                </td>
+                <td align="right">
+                    3
+                </td>
+                <td align="left">
+                    Young Tiger
+                </td>
+                <td align="left">
+                    15.05.22
+                </td>
+            </tr>
+            <tr>
+                <td class="rownum">
+                    <i>3</i>
+                </td>
+                <td align="left">
+                    00.58.61
+                </td>
+                <td align="right">
+                    1
+                </td>
+                <td align="left">
+                    High Security
+                </td>
+                <td align="left">
+                    15.05.22
+                </td>
+            </tr>
+        </table>
+        <br/><br/>
+        <i>Документ сгенерирован с помощью SQLiteStudio v3.3.3 в Пн май 16 02:35:11 2022</i>
+    </body>
+</html>
